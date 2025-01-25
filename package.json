@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "sass src/sass/styles.scss src/style.css -w",
     "dev": "vite",
-    "build": "vite build",
+    "make": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
