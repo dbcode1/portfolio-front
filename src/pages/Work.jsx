@@ -38,14 +38,14 @@ const Work = () => {
         />
       </div>
 
-      <div className="work center">
+      <div className="work">
         <div class="card">
           <div class="card__side card__side--front">
             <img
               src="assets/best.png
           "
               alt="screenshot of"
-              className="screenshot-2"
+              className="screenshot"
             />
           </div>
           <div class="card__side card__side--back card__side--back-1">
@@ -115,12 +115,14 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <a className="github-link" href="https://github.com/dbcode1">
-        <img
-          className="github"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
-        />
-      </a>
+      <div className="github-wrap">
+        <a className="github-link" href="https://github.com/dbcode1">
+          <img
+            className="github"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+          />
+        </a>
+      </div>
     </motion.div>
   );
 };
