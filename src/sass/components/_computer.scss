@@ -12,6 +12,10 @@
 }
 .hello {
   color: #247291;
+  @media (min-width: 600px){
+    font-size: 2rem;
+  }
+  font-size: 1.5rem;
   overflow: hidden;
   font-weight: 100;
   white-space: nowrap;

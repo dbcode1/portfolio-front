@@ -54,6 +54,7 @@ const Work = () => {
               <li className="card__description-item">
                 Integrated Google books and New York Times API's.
               </li>
+              <li>Veiw book previews with google books api.</li>
             </ul>
             <a href="https://bestbooks1.netlify.app/" className="card__button">
               Visit

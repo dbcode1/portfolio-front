@@ -1,11 +1,10 @@
 .work {
   box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   &icons {
     height: 10rem;
   }
@@ -17,6 +16,10 @@
   position: relative;
   width: 20rem;
   height: 14rem;
+  @media (min-width: 600px) {
+    width: 25rem;
+    height: 18rem;
+  }
   color: #247291;
   font-size: 0.75rem;
   padding: 0;
@@ -29,7 +32,7 @@
     &-item {
       //line-height: 40px;
       width: auto;
-      padding: 0.25rem 1rem;
+      padding-bottom: 0.5rem;
       font-size: 0.85rem;
       font-family: open sans;
     }
@@ -40,25 +43,20 @@
     position: absolute;
     top: 0;
     left: 0;
-    // width: auto;
+    width: auto;
     height: inherit;
-    // max-height: 100%;
+    //max-height: 100%;
     backface-visibility: hidden;
     border-radius: 4px;
     overflow: hidden;
-    &__button {
-      position: absolute;
-      bottom: 1rem;
-      right: 1rem;
-    }
+
     &--back {
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: left;
       transform: rotateY(-180deg);
-      border: 2px solid #f8da5b;
-      background-color: #f8f7f5;
+      background-color: #f8da5b;
     }
   }
   &:hover &__side--front {
@@ -75,16 +73,25 @@
       color: grey;
       width: 2rem;
       height: 2rem;
+      @media ( min-width: 600px){
+        width: 3rem;
+        height: 3rem;
+      }
     }
   }
 
   .screenshot {
     width: 20rem;
     height: 14rem;
-    object-fit: cover;
-    &-2 {
-      max-width: 100%;
+    @media (min-width: 600px) {
+      width: 25rem;
+      height: 18rem;
     }
+
+    object-fit: cover;
+    // &-2 {
+    //   max-width: 100%;
+    // }
   }
 }
 .github-wrap {
