@@ -54,7 +54,7 @@ const ContactForm = () => {
       <div className="contact-wrap">
         <a href="https://www.linkedin.com/in/daniel-brusky-6a0a7a1b6/">
           <img
-            src="../../public/assets/linkedin.svg"
+            src="/assets/linkedin.svg"
             alt=""
             className="linkedin"
           />
