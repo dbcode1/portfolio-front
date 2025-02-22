@@ -159,27 +159,26 @@ a:hover:active {
   width: 2.25rem;
 }
 
-.computer__wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
 .computer {
-  height: 8rem;
-  width: 8rem;
-  margin: 0 0 0 -1.25em;
+  height: 6rem;
+  width: 6rem;
   padding: 0;
+}
+@media (min-width: 600px) {
+  .computer {
+    height: 8rem;
+    width: 8rem;
+  }
 }
 
 .hello {
   color: #247291;
-  font-size: 1.5rem;
+  font-size: 1rem;
   overflow: hidden;
-  font-weight: 100;
+  font-weight: 400;
   white-space: nowrap;
   margin: 0 auto;
+  padding: 0;
   border-right: 0.15em solid orange;
   letter-spacing: 0.2rem;
   animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
@@ -226,7 +225,7 @@ a:hover:active {
   padding: 3rem;
   border-radius: 0.5rem;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 4rem auto 0;
 }
 .form__message {
   line-height: 1.25rem;
@@ -262,6 +261,16 @@ a:hover:active {
   background-color: rgb(188, 188, 216);
   text-align: center;
   border-radius: 0.5rem;
+}
+
+.contact-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-contact {
+  padding-bottom: 0.15rem;
 }
 
 .center {

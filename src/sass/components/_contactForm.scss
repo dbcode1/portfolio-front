@@ -17,7 +17,7 @@
   padding: 3rem;
   border-radius: 0.5rem;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 4rem auto 0;
   &__message {
     line-height: 1.25rem;
     margin-bottom: 2rem;
@@ -56,4 +56,14 @@
     text-align: center;
     border-radius: 0.5rem;
   }
+}
+
+.contact-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-contact {
+  padding-bottom: 0.15rem;
 }
