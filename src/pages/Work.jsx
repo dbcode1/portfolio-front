@@ -50,11 +50,15 @@ const Work = () => {
           </div>
           <div class="card__side card__side--back card__side--back-1">
             <ul className="description">
-              <li className="card__description-item">React JS</li>
               <li className="card__description-item">
-                Integrated Google books and New York Times API's.
+                Find bestsellers current or past and veiw a library of classics.
               </li>
-              <li>Veiw book previews with google books api.</li>
+              <li className="card__description-item">
+                Integrated Google Books and New York Times API.
+              </li>
+              <li className="card__description-item">
+                Veiw book previews with Google Books api.
+              </li>
             </ul>
             <a href="https://bestbooks1.netlify.app/" className="card__button">
               Visit
@@ -74,13 +78,13 @@ const Work = () => {
           <div class="card__side card__side--back card__side--back-1">
             <ul className="description">
               <li className="card__description-item">
-                Mongo DB, Express, Node, React.
+                Veiw artwork and create collections of favorite works.
+              </li>
+              <li className="card__description-item">
+                Fullstack app including user accounts and CRUD operations.
               </li>
               <li className="card__description-item">
                 Integrated multiple art museum API's.
-              </li>
-              <li className="card__description-item">
-                Hosted with Heroku and Netlify.
               </li>
             </ul>
             <a href="https://collector1.netlify.app/" className="card__button">
@@ -89,6 +93,35 @@ const Work = () => {
           </div>
         </div>
 
+        <div class="card">
+          <div class="card__side card__side--front">
+            <img
+              src="assets/movies.png
+          "
+              alt="screenshot of website"
+              className="screenshot"
+            />
+          </div>
+          <div class="card__side card__side--back card__side--back-1">
+            <ul className="description">
+              <li className="card__description-item">
+                Search movies, and select from genres.
+              </li>
+              <li className="card__description-item">
+                Integrated multiple api sources.
+              </li>
+              <li className="card__description-item">
+                Watch previews with YouTube API.
+              </li>
+            </ul>
+            <a href="https://movingpictures1.netlify.app/" className="card__button">
+              Visit
+            </a>
+          </div>
+        </div>
+      
+     
+        
         <div class="card">
           <div class="card__side card__side--front">
             <img
@@ -101,13 +134,13 @@ const Work = () => {
           <div class="card__side card__side--back card__side--back-1">
             <ul className="description">
               <li className="card__description-item">
-                Mongo DB, Express, Node, React.
+                Fullstack app using Mongo DB, Express, Node, React.
               </li>
               <li className="card__description-item">
                 User signin with Google auth.
               </li>
               <li className="card__description-item">
-                Hosted with Heroku and Netlify.
+                Keep track of your daily thoughts.
               </li>
             </ul>
             <a href="https://thoughtpad.netlify.app/" className="card__button">
