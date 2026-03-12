@@ -122,32 +122,6 @@ const Work = () => {
       
      
         
-        <div class="card">
-          <div class="card__side card__side--front">
-            <img
-              src="assets/thoughts.png
-          "
-              alt="screenshot of"
-              className="screenshot"
-            />
-          </div>
-          <div class="card__side card__side--back card__side--back-1">
-            <ul className="description">
-              <li className="card__description-item">
-                Fullstack app using Mongo DB, Express, Node, React.
-              </li>
-              <li className="card__description-item">
-                User signin with Google auth.
-              </li>
-              <li className="card__description-item">
-                Keep track of your daily thoughts.
-              </li>
-            </ul>
-            <a href="https://thoughtpad.netlify.app/" className="card__button">
-              Visit
-            </a>
-          </div>
-        </div>
       </div>
       <div className="github-wrap">
         <a className="github-link" href="https://github.com/dbcode1">
